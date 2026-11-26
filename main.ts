@@ -23,4 +23,4 @@ checkEntry(SRC, MAX_BYTES);
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 mkdirSync(out, { recursive: true });
 copyFileSync(SRC, join(out, 'entry.png'));
-// The file is copied byte for byte: the invitation is exactly as drawn.
+// The file is copied byte for byte: the invitation is exactly as drawn, twice.
